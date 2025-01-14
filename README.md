@@ -1,6 +1,6 @@
-# Book Store App
+# Bookify Store App
 
-Welcome to the Book Store App! This application is designed to provide a seamless experience for browsing, managing, and purchasing books. Built using modern web technologies, it features a clean user interface and efficient backend.
+Welcome to the Bookify Store App! This application is designed to provide a seamless experience for browsing, managing, and purchasing books. Built using modern web technologies, it features a clean user interface and efficient backend.
 
 ## Features
 
@@ -39,41 +39,6 @@ Ensure you have the following installed:
 - [MongoDB](https://www.mongodb.com/)
 - A package manager like npm or yarn
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone <repository_url>
-   cd bookStoreApp-master
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   Create a `.env` file in the root directory and add the following:
-
-   ```env
-   PORT=5000
-   MONGO_URI=<your_mongodb_connection_string>
-   JWT_SECRET=<your_jwt_secret>
-   ```
-
-4. Start the application:
-
-   ```bash
-   npm start
-   ```
-
-5. Access the app in your browser:
-   ```
-   http://localhost:5000
-   ```
-
 ## Project Structure
 
 ```
@@ -106,12 +71,7 @@ We welcome contributions to enhance this project! Please follow these steps:
    ```bash
    git push origin feature-name
    ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, please contact us at [your-email@example.com].
+For questions or feedback, please contact us at [sohailakhtr34@gmail.com].
