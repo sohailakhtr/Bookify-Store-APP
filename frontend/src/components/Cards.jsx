@@ -1,16 +1,10 @@
 import React from "react";
-// import list from  "..//../public/list.json"
 
 function Cards({ item }) {
-  // Ensure item and item.image exist before rendering the card
-  if (!item || !item.image) {
-    return <div></div>;
-  }
-
   return (
     <>
-      <div className="mt-4  my-3 p-3">
-        <div className="card bg-base-100 w-92 shadow-xl hover:scale-105 duration-300  dark:bg-slate-900 dark:text-white dark:border ">
+      <div className="mt-4 my-3 p-3">
+        <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
           <figure>
             <img src={item.image} alt="Shoes" />
           </figure>
@@ -21,10 +15,8 @@ function Cards({ item }) {
             </h2>
             <p>{item.title}</p>
             <div className="card-actions justify-between">
-              <div className="px-2 rounded-full  border-[2px]">
-                ${item.price}
-              </div>
-              <div className="cursor-pointer px-2 py-1 rounded-full  border-[2px]  hover:bg-pink-500 hover:text-white duration-200">
+              <div className="badge badge-outline">${item.price}</div>
+              <div className=" cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200">
                 Buy Now
               </div>
             </div>
